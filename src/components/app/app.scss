@@ -1,0 +1,9 @@
+.side{
+    display: flex;
+    flex-direction: row;
+    @media(max-width: 1600px){
+        .side{
+            display: none;
+        }
+    }
+}

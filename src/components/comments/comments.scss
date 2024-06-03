@@ -1,0 +1,25 @@
+textarea{
+    box-sizing: border-box;
+    margin: 30px;
+    width: 94%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+textarea::placeholder{
+    font-size: 16pt;
+    padding: 10px;
+}
+
+.comments{
+    border: solid;
+    border-color: gray;
+    border-width: 1px;
+    border-radius: 10px;
+    background-color: #ececec;
+    .thread{
+        .replies{
+            margin-left: 80px;
+        }
+    }
+}
